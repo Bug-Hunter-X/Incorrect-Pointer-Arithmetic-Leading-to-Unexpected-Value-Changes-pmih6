@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; printf("%d\n", x); // x will be 20, which is expected behavior. return 0; }
